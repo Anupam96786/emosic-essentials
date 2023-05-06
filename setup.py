@@ -12,7 +12,7 @@ requirements = read('requirements.txt').splitlines()
 
 setup(
     name='emosic_essentials',
-    version='0.0.1',
+    version='0.1.0',
     description='Python Audio Feature Extraction Library: Extracts all the features required by the emosic project',
     url='https://github.com/Anupam96786/emosic-essentials',
     author='Anupam Samanta',
