@@ -9,6 +9,8 @@ class FeatureTranscoder:
             raise "Unknown feature detected"
     
     def decode(self, encoded_array):
+        m = max(encoded_array)
+        encoded_array = [int(i == m) for i in encoded_array]
         if 1 in encoded_array:
             return self.__features[encoded_array.index(1)]
         else:
